@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="700.0" prefWidth="1000.0" styleClass="venue123" stylesheets="@scene2stylesheet.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Abdullahs.scene2Controller">
+   <children>
+      <HBox prefHeight="130.0" prefWidth="1000.0">
+         <children>
+            <MenuBar fx:id="venuebutton" onMousePressed="#moviescene">
+              <menus>
+                <Menu mnemonicParsing="false" text="Venues">
+                  <items>
+                        <MenuItem mnemonicParsing="false" text="Birmingham;ODEON BirminghamNew Street" />
+                        <MenuItem mnemonicParsing="false" text="Birmingham;Cineworld - Birmingham Broad Street" />
+                        <MenuItem mnemonicParsing="false" text="Birmingham;ODEON Birmingham New Street" />
+                        <MenuItem mnemonicParsing="false" text="Birmingham;ODEON Luxe Birmingham Broadway Plaza" />
+                    <MenuItem mnemonicParsing="false" text="Birstall;Showcase Cinema de Lux Leeds" />
+                        <MenuItem mnemonicParsing="false" text="Bradford;Cineworld Bradford" />
+                        <MenuItem mnemonicParsing="false" text="Bradford;ODEON Luxe" />
+                        <MenuItem mnemonicParsing="false" text="Bradford;The Light Cinema" />
+                        <MenuItem mnemonicParsing="false" text="Huddersfield;ODEON Huddersfield" />
+                        <MenuItem mnemonicParsing="false" text="Leeds:Vue Cinema Leeds - Leeds The Light" />
+                        <MenuItem mnemonicParsing="false" text="Leeds:Vue Cinema Leeds - Leeds Kirkstall" />
+                        <MenuItem mnemonicParsing="false" text="Leeds:Everyman Leeds" />
+                  </items>
+                </Menu>
+              </menus>
+            </MenuBar>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>
