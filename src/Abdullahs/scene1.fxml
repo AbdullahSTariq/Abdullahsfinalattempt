@@ -28,7 +28,7 @@
       </HBox>
       <VBox layoutX="372.0" layoutY="593.0" prefHeight="75.0" prefWidth="256.0">
          <children>
-            <Button fx:id="newsceneButton" alignment="BOTTOM_CENTER" mnemonicParsing="false" prefHeight="77.0" prefWidth="279.0" styleClass="book" stylesheets="@scene1stylesheet.css" text="BOOK HERE" textFill="WHITE">
+            <Button fx:id="newsceneButton" alignment="BOTTOM_CENTER" mnemonicParsing="false" onAction="#Switchvenue" prefHeight="77.0" prefWidth="279.0" styleClass="book" stylesheets="@scene1stylesheet.css" text="BOOK HERE" textFill="WHITE">
                <font>
                   <Font size="36.0" />
                </font>
